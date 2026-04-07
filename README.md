@@ -39,6 +39,7 @@ log-processor-pipeline/
 │   └── processor.py    # The core Log Parser engine
 ├── docker-compose.yml  # Container orchestration
 └── .gitignore          # Prevents data leakage
+]
 
 ## 🚀 How to Run
 
