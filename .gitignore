@@ -1,0 +1,4 @@
+data/*.log
+alerts/*.txt
+__pycache__/
+.DS_Store
