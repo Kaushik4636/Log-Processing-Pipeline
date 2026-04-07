@@ -28,15 +28,17 @@ The pipeline follows a Producer-Consumer pattern:
 
 ## 📂 Project Structure
 
-log-processor-pipeline/
-├── data/               # Simulated raw log storage (Ignored by Git)
-├── alerts/             # Real-time failure alerts (Ignored by Git)
-├── src/
-│   ├── producer.py     # Generates high-volume system traffic
-│   └── processor.py    # The core Log Parser and Alerting engine
-├── docker-compose.yml  # Container orchestration
-└── .gitignore          # Prevents data leakage and junk files
+## 📂 Project Structure
 
+```text
+log-processor-pipeline/
+├── data/               # Simulated raw log storage
+├── alerts/             # Real-time failure alerts
+├── src/
+│   ├── producer.py     # Generates high-volume traffic
+│   └── processor.py    # The core Log Parser engine
+├── docker-compose.yml  # Container orchestration
+└── .gitignore          # Prevents data leakage
 
 ## 🚀 How to Run
 
