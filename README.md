@@ -39,7 +39,7 @@ log-processor-pipeline/
 │   └── processor.py    # The core Log Parser engine
 ├── docker-compose.yml  # Container orchestration
 └── .gitignore          # Prevents data leakage
-]
+```
 
 ## 🚀 How to Run
 
@@ -49,7 +49,7 @@ Python 3.x installed OR Docker Desktop installed.
 ### Setup
 Clone the repository:
 
-git clone https://github.com/YOUR_USERNAME/log-processor-pipeline.git
+git clone https://github.com/Kaushik4636/Log-Processing-Pipeline.git
 
 cd log-processor-pipeline
 
